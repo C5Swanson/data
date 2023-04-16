@@ -17,13 +17,13 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
 
 ### Step 1: Prop Configuration and Component Usage
 
-* `src/Modules/Home/Post/Post.jsx`
-  - Configure props to component
-  - Display post element
+* `src/Modules/Home/Post/`
+  - Configure props to component in `Post.jsx`
+  - Configure post element in `Post.jsx`
 
-* `src/Modules/Home/.jsx`
-  - Create list of Post components
-  - Render components in home container
+* `src/Modules/Home/`
+  - Create list of Post components in `Home.jsx`
+  - Render components in home container within `Home.jsx`
 
 ### STEP 3: Component Creation / Routing
 
