@@ -23,6 +23,7 @@ const Home = function({ users }) {
     TODO: Create List of Post elements
 
     Requirements:
+    - Use "users" prop and "posts" for data
     - Posts should be assigned to a memoized (uses useMemo) variable
     - Element should use the <Post /> component
 
