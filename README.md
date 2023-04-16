@@ -34,7 +34,7 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
 * Set up with https://jsonplaceholder.typicode.com/
 
 ### Posts
-https://my-json-server.typicode.com/C5Swanson/data/posts
+https://my-json-server.typicode.com/C5Swanson/socialize/posts
 
 * GET       /posts 
 * GET       /posts/{id}
@@ -47,7 +47,7 @@ https://my-json-server.typicode.com/C5Swanson/data/posts
 #### Usage - Get All
 
 ```
-fetch('https://my-json-server.typicode.com/C5Swanson/data/posts')
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/posts')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
@@ -71,7 +71,7 @@ fetch('https://my-json-server.typicode.com/C5Swanson/data/posts')
 #### Usage - Create Post
 
 ```
-fetch('https://my-json-server.typicode.com/C5Swanson/data/posts', {
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/posts', {
   method: 'POST',
   body: JSON.stringify({
     title: 'foo',
@@ -106,7 +106,7 @@ fetch('https://my-json-server.typicode.com/C5Swanson/data/posts', {
 
 
 ### Users
-https://my-json-server.typicode.com/C5Swanson/data/users
+https://my-json-server.typicode.com/C5Swanson/socialize/users
 
 * GET       .../users 
 * GET       .../users/{id}
@@ -119,7 +119,7 @@ https://my-json-server.typicode.com/C5Swanson/data/users
 #### Usage
 
 ```
-fetch('https://my-json-server.typicode.com/C5Swanson/data/users')
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/users')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
@@ -144,7 +144,7 @@ fetch('https://my-json-server.typicode.com/C5Swanson/data/users')
 #### Create
 
 ```
-fetch('https://my-json-server.typicode.com/C5Swanson/data/posts', {
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/posts', {
   method: 'POST',
   body: JSON.stringify({
     title: 'foo',
@@ -164,7 +164,7 @@ fetch('https://my-json-server.typicode.com/C5Swanson/data/posts', {
 #### Usage - Create User
 
 ```
-fetch('https://my-json-server.typicode.com/C5Swanson/data/users', {
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/users', {
   method: 'POST',
   body: JSON.stringify({
     firstName: "David",

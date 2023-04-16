@@ -1,4 +1,4 @@
-const baseURL = "https://my-json-server.typicode.com/C5Swanson/data";
+const baseURL = "https://my-json-server.typicode.com/C5Swanson/socialize";
 
 const homeURL= `${baseURL}/posts`;
 
