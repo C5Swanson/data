@@ -5,6 +5,11 @@
 git clone git@github.com:C5Swanson/socialize.git
 ```
 
+### Navigate into the directory
+```
+cd socialize
+```
+
 ### Install Dependencies
 ```
 npm install
