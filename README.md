@@ -1,5 +1,10 @@
 ## Run the app
 
+### Clone the repo
+```
+git clone git@github.com:C5Swanson/socialize.git
+```
+
 ### Install Dependencies
 ```
 npm install
@@ -10,6 +15,8 @@ npm install
 npm start
 ```
 
+<br>
+--
 
 ## Tutorial Instructions
 
@@ -25,15 +32,36 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
   - Create list of Post components in `Home.jsx`
   - Render components in home container within `Home.jsx`
 
-### STEP 3: Component Creation / Routing
+### STEP 2: Component Creation / Routing
 
--- ADD Step Instructions
+* `src/Modules/Profile/`
+  - Create profile component
 
-### Step 3: Redux Configuration
+* `src/Modules/Friends/`
+  - Create friends component
 
--- ADD Step Instructions
+* `src/Modules/Core`
+  - Add route options for profile and friend component
+  - Add navigation actions
 
+### Step 3: Redux Configuration - Showing tags on posts
 
+* `src/Modules/Home/Redux`
+  - Add API for tags in `API.js`
+  - Add action types in `HomeRedux.js`
+  - Add handlers in `HomeHandlers.js`
+  - Add action creator in `HomeActionCreators.js`
+  - Add selector in `Selectors.js`
+
+* `src/Modules/Home/`
+  - Get tags using new redux in `Home.jsx`
+
+* `src/Modules/Home/Post`
+  - Get add tags to props in `Post.jsx`
+  - Get show tags on post element in `Post.jsx`
+
+<br>
+--
 
 ## Simple JSON Test Server
 

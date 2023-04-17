@@ -16,3 +16,9 @@ export function handleGetPostsSuccess(state, action) {
         posts: data
     };
 }
+
+/*
+STEP 3
+
+TODO: Add handlers for getting tags. Expand the initiate state to include tags
+*/

@@ -25,3 +25,9 @@ export function getPosts() {
         }
     );
 }
+
+/*
+STEP 3
+
+TODO: Add an action creator to get tags and add them to state
+*/

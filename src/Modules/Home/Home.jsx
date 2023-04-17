@@ -46,3 +46,13 @@ const Home = function({ users }) {
 Home.propTypes = propTypes;
 
 export default Home;
+
+/*
+STEP 3
+
+TODO: Get tags and pass to post element
+
+Requirements:
+- Use created selector and action creator to get tags
+- Pass tags into post component
+*/

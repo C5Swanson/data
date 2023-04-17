@@ -39,3 +39,13 @@ const Post = function({ users }) {
 Post.propTypes = propTypes;
 
 export default Post;
+
+/*
+STEP 3
+
+TODO: Expand posts to include tags
+
+Requirements:
+- Add tags to component props
+- Show tags on post element using tagIds on post object
+*/
