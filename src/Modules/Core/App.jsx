@@ -28,6 +28,7 @@ const App = function() {
 
   TODO: Define variable for useNavigate the component 
   */
+ 
   /*
   STEP 2
 
@@ -94,8 +95,8 @@ const App = function() {
                 open={Boolean(anchorEl)}
                 onClose={handleMenuAction}
               >
-                <MenuItem onClick={handleMenuAction('profile')}>Profile</MenuItem>
-                <MenuItem onClick={handleMenuAction('friends')}>Friends</MenuItem>
+                <MenuItem onClick={() => handleMenuAction('profile')}>Profile</MenuItem>
+                <MenuItem onClick={() => handleMenuAction('friends')}>Friends</MenuItem>
               </Menu>
             </div>
           </Toolbar>
