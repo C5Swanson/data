@@ -131,17 +131,14 @@ fetch('https://my-json-server.typicode.com/C5Swanson/socialize/posts', {
 ##### Sample Response
 
 ```
-[
-  {
-    "userId": 1,
-    "id": 10,
-    "title": 'foo',
-    "body": 'bar',
-    "timestamp": '2023-04-15T6:30:02.675Z'
-    "tagIds": [1, 2, 3]
-  },
-  ...
-]
+{
+  "userId": 1,
+  "id": 10,
+  "title": 'foo',
+  "body": 'bar',
+  "timestamp": '2023-04-15T6:30:02.675Z'
+  "tagIds": [1, 2, 3]
+}
 ```
 
 
@@ -205,17 +202,14 @@ fetch('https://my-json-server.typicode.com/C5Swanson/socialize/users', {
 ##### Sample Response
 
 ```
-[
-  {
-    "firstName": "David",
-    "lastName": "Swanson",
-    "username": "Geodavid",
-    "email": "david.swanson@example.com",
-    "phone": "1-333-333-3333",
-    "organization": "Cadre5"
-  },
-  ...
-]
+{
+  "firstName": "David",
+  "lastName": "Swanson",
+  "username": "Geodavid",
+  "email": "david.swanson@example.com",
+  "phone": "1-333-333-3333",
+  "organization": "Cadre5"
+}
 ```
 
 
@@ -269,11 +263,8 @@ fetch('https://my-json-server.typicode.com/C5Swanson/socialize/tags', {
 ##### Sample Response
 
 ```
-[
-  {
-    "id": 2,
-    "name": "Another Tag"
-  },
-  ...
-]
+{
+  "id": 2,
+  "name": "Another Tag"
+}
 ```
