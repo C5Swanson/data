@@ -175,26 +175,6 @@ fetch('https://my-json-server.typicode.com/C5Swanson/socialize/users')
 ]
 ```
 
-#### Create
-
-```
-fetch('https://my-json-server.typicode.com/C5Swanson/socialize/posts', {
-  method: 'POST',
-  body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
-    userId: 1,
-    timestamp: '023-04-15T6:30:02.675Z'
-    tagIds: [1, 2, 3]
-  }),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
-  },
-})
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-```
-
 #### Usage - Create User
 
 ```
@@ -227,6 +207,66 @@ fetch('https://my-json-server.typicode.com/C5Swanson/socialize/users', {
     "email": "david.swanson@example.com",
     "phone": "1-333-333-3333",
     "organization": "Cadre5"
+  },
+  ...
+]
+```
+
+
+### Tags
+https://my-json-server.typicode.com/C5Swanson/socialize/tags
+
+* GET       .../tags 
+* GET       .../tags/{id}
+* GET       .../tags?{QUERY}
+* POST      .../tags
+* PUT       .../tags/{id}
+* PATCH	    .../tags/{id}
+* DELETE    .../tags/{id}
+
+#### Usage
+
+```
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/tags')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+
+#### Sample Data
+
+```
+[
+  {
+    "id": 1,
+    "name": "Test"
+  },
+  ...
+]
+```
+
+#### Usage - Create Tag
+
+```
+fetch('https://my-json-server.typicode.com/C5Swanson/socialize/tags', {
+  method: 'POST',
+  body: JSON.stringify({
+    "name": "Another Tag"
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+
+##### Sample Response
+
+```
+[
+  {
+    "id": 2,
+    "name": "Another Tag"
   },
   ...
 ]
