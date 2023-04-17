@@ -65,7 +65,8 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
 
 ## Simple JSON Test Server
 
-* Set up with https://jsonplaceholder.typicode.com/
+* Set up using https://jsonplaceholder.typicode.com/
+* See sample data at https://jsonplaceholder.typicode.com/C5Swanson/socialize
 
 ### Posts
 https://my-json-server.typicode.com/C5Swanson/socialize/posts
