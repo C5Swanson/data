@@ -16,7 +16,7 @@ npm start
 ```
 
 <br>
---
+---
 
 ## Tutorial Instructions
 
@@ -35,13 +35,13 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
 ### STEP 2: Component Creation / Routing
 
 * `src/Modules/Profile/`
-  - Create profile component
+  - Create Profile component
 
 * `src/Modules/Friends/`
-  - Create friends component
+  - Create Friends component
 
 * `src/Modules/Core`
-  - Add route options for profile and friend component
+  - Add route options for Profile and Friend component
   - Add navigation actions
 
 ### Step 3: Redux Configuration - Showing tags on posts
@@ -61,7 +61,7 @@ This app is designed as an interactive tutorial to learn React with Redux. The d
   - Get show tags on post element in `Post.jsx`
 
 <br>
---
+---
 
 ## Simple JSON Test Server
 
