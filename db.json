@@ -116,5 +116,411 @@
             "id": 5,
             "name": "Personal"
         }
+    ],
+    "merge_requests": [
+        {
+            "id": 1,
+            "project_id": 1,
+            "title": "feature/F1234",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-08-01T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F1234",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 1,
+                "username": "a12",
+                "name": "John Doe",
+                "state": "active",
+                "avatar_url": "https://www.gravatar.com/avatar/956c92487c6f6f7616b536927e22c9a0?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 2,
+                    "username": "b23",
+                    "name": "Jane Smith",
+                    "state": "active",
+                    "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 3,
+                    "username": "c45",
+                    "name": "Karl Jones",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=64&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 2,
+            "project_id": 1,
+            "title": "feature/F4567",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-07-20T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F4567",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 3,
+                "username": "c45",
+                "name": "Karl Jones",
+                "state": "active",
+                "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=64&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 1,
+                    "username": "a12",
+                    "name": "John Doe",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/956c92487c6f6f7616b536927e22c9a0?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 2,
+                    "username": "b23",
+                    "name": "Jane Smith",
+                    "state": "active",
+                    "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 3,
+            "project_id": 1,
+            "title": "feature/F1122",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-07-26T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F1122",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 2,
+                "username": "b23",
+                "name": "Jane Smith",
+                "state": "active",
+                "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 4,
+                    "username": "d67",
+                    "name": "Taylor Adams",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/j4re7234werbd1972efa85bg4ed7dd61?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 5,
+                    "username": "e89",
+                    "name": "Paul Moore",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 4,
+            "project_id": 1,
+            "title": "feature/F4554",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-05-02T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F4554",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 4,
+                "username": "d67",
+                "name": "Taylor Adams",
+                "state": "active",
+                "avatar_url": "https://www.gravatar.com/avatar/j4re7234werbd1972efa85bg4ed7dd61?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 1,
+                    "username": "a12",
+                    "name": "John Doe",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/956c92487c6f6f7616b536927e22c9a0?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 5,
+                    "username": "e89",
+                    "name": "Paul Moore",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 5,
+            "project_id": 1,
+            "title": "feature/8765",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-04-24T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F8765",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 5,
+                "username": "e89",
+                "name": "Paul Moore",
+                "state": "active",
+                "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 2,
+                    "username": "b23",
+                    "name": "Jane Smith",
+                    "state": "active",
+                    "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 3,
+                    "username": "c45",
+                    "name": "Karl Jones",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=64&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 6,
+            "project_id": 1,
+            "title": "feature/9977",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-07-28T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F9977",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 5,
+                "username": "e89",
+                "name": "Paul Moore",
+                "state": "active",
+                "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 1,
+                    "username": "a12",
+                    "name": "John Doe",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/956c92487c6f6f7616b536927e22c9a0?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 4,
+                    "username": "d67",
+                    "name": "Taylor Adams",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/j4re7234werbd1972efa85bg4ed7dd61?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        },
+        {
+            "id": 7,
+            "project_id": 1,
+            "title": "feature/F3344",
+            "description": "",
+            "state": "opened",
+            "merged_at": null,
+            "created_at": "2023-07-16T12:00:00Z",
+            "target_branch": "develop",
+            "source_branch": "feature/F3344",
+            "closed_by": null,
+            "closed_at": null,
+            "author": {
+                "id": 2,
+                "username": "b23",
+                "name": "Jane Smith",
+                "state": "active",
+                "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+                "web_url": "http://example.com/"
+            },
+            "reviewers": [
+                {
+                    "id": 3,
+                    "username": "c45",
+                    "name": "Karl Jones",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=64&d=identicon",
+                    "web_url": "http://example.com/"
+                },
+                {
+                    "id": 5,
+                    "username": "e89",
+                    "name": "Paul Moore",
+                    "state": "active",
+                    "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+                    "web_url": "http://example.com/"
+                }
+            ],
+            "labels": [
+                "App",
+                "Cross Repo Dependency"
+            ],
+            "draft": false,
+            "web_url": "http://example.com/",
+            "time_stats": {
+                "time_estimate": 0,
+                "total_time_spent": 0,
+                "human_time_estimate": null,
+                "human_total_time_spent": null
+            }
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "username": "a12",
+            "name": "John Doe",
+            "state": "active",
+            "avatar_url": "https://www.gravatar.com/avatar/956c92487c6f6f7616b536927e22c9a0?s=80&d=identicon",
+            "web_url": "http://example.com/",
+            "created_at": "2016-07-20T12:00:00Z"
+        },
+        {
+            "id": 2,
+            "username": "b23",
+            "name": "Jane Smith",
+            "state": "active",
+            "avatar_url": "http://www.gravatar.com/avatar/46f6f7dc858ada7be1853f7fb96e81da?s=80&d=identicon",
+            "web_url": "http://example.com/",
+            "created_at": "2018-10-20T12:00:00Z"
+        },
+        {
+            "id": 3,
+            "username": "c45",
+            "name": "Karl Jones",
+            "state": "active",
+            "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=64&d=identicon",
+            "web_url": "http://example.com/",
+            "created_at": "2020-01-20T12:00:00Z"
+        },
+        {
+            "id": 4,
+            "username": "d67",
+            "name": "Taylor Adams",
+            "state": "active",
+            "avatar_url": "https://www.gravatar.com/avatar/j4re7234werbd1972efa85bg4ed7dd61?s=80&d=identicon",
+            "web_url": "http://example.com/",
+            "created_at": "2019-04-20T12:00:00Z"
+        },
+        {
+            "id": 5,
+            "username": "e89",
+            "name": "Paul Moore",
+            "state": "active",
+            "avatar_url": "https://www.gravatar.com/avatar/c2525a7f58ae3776070e44c106c48e15?s=80&d=identicon",
+            "web_url": "http://example.com/",
+            "created_at": "2023-09-20T12:00:00Z"
+        }
     ]
 }
